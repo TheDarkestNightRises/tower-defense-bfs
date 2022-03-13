@@ -5679,6 +5679,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 5024386672494196291, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5124304102759235036, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
       propertyPath: m_Name
       value: (-6, 1)
@@ -5764,6 +5768,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 5024386672494196291, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5124304102759235036, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
       propertyPath: m_Name
       value: (-6, 3)
@@ -7343,6 +7351,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 5024386672494196291, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5124304102759235036, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
       propertyPath: m_Name
       value: (-4, 3)
@@ -9157,6 +9169,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5361084362889201539, guid: 34e4951a39dba9449b7dc9d52534cd97, type: 3}
   m_PrefabInstance: {fileID: 1764753281}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &721354413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 721354414}
+  - component: {fileID: 721354415}
+  m_Layer: 0
+  m_Name: GridManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &721354414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721354413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.32516, y: 9.392578, z: 14.0347}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &721354415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721354413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e2d218aae33cb946892b7e38b44f95e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridSize: {x: 12, y: 2}
 --- !u!1001 &727771907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11385,6 +11441,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 5024386672494196291, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5124304102759235036, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
       propertyPath: m_Name
       value: (-3, 3)
@@ -14322,6 +14382,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 5024386672494196291, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5124304102759235036, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
       propertyPath: m_Name
       value: (-5, 3)
@@ -18092,6 +18156,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 5024386672494196291, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5124304102759235036, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
       propertyPath: m_Name
       value: (-6, 2)
@@ -20375,6 +20443,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 5024386672494196291, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5124304102759235036, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
       propertyPath: m_Name
       value: (-6, -2)
@@ -20924,6 +20996,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5777304101246616357, guid: d51c70c5a3853af4183c5453968dd4dd, type: 3}
   m_PrefabInstance: {fileID: 1638494494}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1840823701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7281068539746717813, guid: b7e6c6a6d029b7441a7a03b73f31830e, type: 3}
+  m_PrefabInstance: {fileID: 880905978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1840823702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840823701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff1736a73d0e2a243b3f12518741c9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSearchNode:
+    coordinates: {x: 0, y: 0}
+    isWalkable: 0
+    isExplored: 0
+    isPath: 0
 --- !u!1001 &1845084867
 PrefabInstance:
   m_ObjectHideFlags: 0
