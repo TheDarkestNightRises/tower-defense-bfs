@@ -38,8 +38,8 @@ public class Tile : MonoBehaviour
             bool isSuccesfull = towerPrefab.CreateTower(towerPrefab, transform.position);
             if (isSuccesfull)
             {
-                pathfinder.NotifyReceivers();
                 gridManager.BlockNode(coordinates);
+                pathfinder.NotifyReceivers();
             }
         }
     }
