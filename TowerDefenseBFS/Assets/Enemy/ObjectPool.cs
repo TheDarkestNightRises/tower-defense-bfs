@@ -15,7 +15,6 @@ public class ObjectPool : MonoBehaviour
 
     private void Awake()
     {
-        PopulatePool(); 
     }
 
     private void PopulatePool()
@@ -30,6 +29,7 @@ public class ObjectPool : MonoBehaviour
 
     void Start()
     {
+        PopulatePool();
         StartCoroutine(SpawnEnemy());
     }
 
