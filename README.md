@@ -6,7 +6,7 @@ A tower defense game where you can strategize your defense plan. Protect your ca
 - Defeat endless hordes of enemies with your towers
 - Enemies drop gold
 - Place towers in the right spots on a tile map 
-- Enemies find their path to your castle using a the bfs pathfinding algorithm avoiding obstacles
+- Enemies find their path to your castle avoiding obstacles. (Using the BFS pathfinding algorithm.) 
 
 
 ## Tech Stack
